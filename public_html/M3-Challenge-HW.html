@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Problem 1</title>
+    <meta charset="utf-8" />
+    <script>
+        window.addEventListener("load", () => {
+            console.log("loaded via javascript");
+            //TODO: add any extra onload processing you may need here
+            <p>Hello my name is Yaheya, and I welcome to my first JS page desgin.</p>
+        });
+        function getCurrentSelection() {
+            setTimeout(() => {
+                //added this delay here as some solutions may require it to update properly (i.e., click code may complete before the navigation changes)
+                //TODO: add code for processing the current selection 
+                <!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Objects</h2>
+<p>My graduation details</p>
+
+<p id="demo"></p>
+
+<script>
+const person = {
+  name: "Yaheya Elsaid",
+  age: 2024,
+  city: "NJIT"
+};
+
+document.getElementById("demo").innerHTML = person.name + ", " + person.age + ", " + person.city;
+</script>
+
+</body>
+</html>
+
+                //Note: likely you'll want to call updateCurrentPage towards the end
+            }, 100);
+        }
+    </script>
+    <style>
+        /* TODO: make edits here */
+        .p1 {
+  font-family: "Times New Roman";
+  div {
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 80px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+
+    </style>
+    <!-- make the necessary edits above this line -->
+
+
+    <!-- Do not edit anything below this line, doing so will lose points-->
+    <script src="https://it202-spring-22.herokuapp.com/M3/problem1.js">
+            //Don't edit anything in this tag and do not delete it
+    </script>
+</head>
+<!-- Do not edit anything below this line, doing so will lose points-->
+
+<body onload="check();updateCurrentPage('start');">
+    <header>
+        <h2>Problem 1</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#login">login</a></li>
+            <li><a href="#register">register</a></li>
+            <li><a href="#profile">profile</a></li>
+            <li><a href="#logout">logout</a></li>
+        </ul>
+    </nav>
+    <h1></h1>
+    <h3>Challenges</h3>
+    <ul>
+        <li>Edit the given <code>&lt;style&gt;</code> tag to customize the appearance of this page
+            <ul>
+                <li>a {
+                    display: block;
+                    color: #666;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                  }</li>
+                <li>ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    border: 1px solid #e7e7e7;
+                    background-color: #f3f3f3</li>
+                <li>li a.active {
+                    color: white;
+                    background-color: #04AA6D</li>
+                <li>a:hover {
+                    color: hotpink</li>
+                <li><i class="material-icons">checkmark</i></li>
+                <li>(1 pt) Use CSS to uppercase the first character of the content in the <code>&lt;h1&gt;</code> tag
+                    and the
+                    <code>&lt;a&gt;</code> tags
+                </li>
+                <li>h3 {
+                    text-decoration: underline;
+                  }</li>
+            </ul>
+        </li>
+        <li>(1 pt) Any style applied to unordered list in the <code>&lt;nav&gt;</code> tag should not apply to this list
+            (i.e., nav
+            and this
+            list should
+            not appear identical)</li>
+        <li>
+            Any time a navigation link is clicked have it do the following:
+            <ul>
+                <li>a:link {
+                    background-color: yellow;
+                  }</li>
+                <li>(1 pt) Update the content of the <code>&lt;title&gt;</code> tag with the link text</li>
+                <li>Hint: Get the word of the current navigation and pass it to updateCurrentPage()</li>
+            </ul>
+        </li>
+    </ul>
+    <footer></footer>
+</body>
+
+</html>
