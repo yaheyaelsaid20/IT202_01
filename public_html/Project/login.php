@@ -14,15 +14,26 @@ require(__DIR__ . "/../../partials/nav.php");
 </form>
 <script>
     function validate(form) {
-        //TODO 1: implement JavaScript validation
-        //ensure it returns false for an error and true for success
-        if($password<4){
-            return false;
+       let isVald = true;
+       const email = form.email.value;
+       const password = form.password.value;
+       if (email.indexOf("@") > -1){
+           if (!isValidEmail(email)){
+           flash("Invalid email", "danger");
+           isValid = false
+       }
+    } else { 
+        if(!Validusername(email)){
+            flash("Username must be lowercase, 3-16 characters, and contain only a-z, 0-9, _ or -", "danger");
+            isValid = false;
         }
+    }
+    if (!isValidPassword(password)){
+        flash("Password too short" , "danger");
+        isValid = false;
+    }
+        return isValid;
 
-        //TODO update clientside validation to check if it should
-        //valid email or username
-        return true;
     }
 </script>
 <?php
