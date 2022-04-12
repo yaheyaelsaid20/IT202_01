@@ -16,6 +16,9 @@ require(__DIR__ . "/../../partials/nav.php");
     function validate(form) {
         //TODO 1: implement JavaScript validation
         //ensure it returns false for an error and true for success
+        if($password<4){
+            return false;
+        }
 
         //TODO update clientside validation to check if it should
         //valid email or username
