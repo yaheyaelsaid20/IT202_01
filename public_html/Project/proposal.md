@@ -17,34 +17,36 @@
 ### Proposal Checklist and Evidence
 
 - Milestone 1
-      -[]\(mm/dd/yyyy of completion) User will be able to register a new account
+
+  - [x] \(04/02/2022 of completion) User will be able to register a new account
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/register.php](https://yre2-prod.herokuapp.com/Project/register.php)
-      -[]\(mm/dd/yyyy of completion) User will be able to login a  account
+  - [x] \(04/02/2022 of completion) User will be able to login a  account
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/login.php](https://yre2-prod.herokuapp.com/Project/login.php)
-      -[]\(mm/dd/yyyy of completion) User will be able to logout a account
+  - [x] \(04/02/2022 of completion) User will be able to logout a account
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/logout.php](https://yre2-prod.herokuapp.com/Project/logout.php)
-      -[]\(mm/dd/yyyy of completion) Basic security rules implemented
+  - [x] \(04/03/2022 of completion) Basic security rules implemented
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/profile.php](https://yre2-prod.herokuapp.com/Project/profile.php)
-      -[]\(mm/dd/yyyy of completion) Basic roles implemented
+  - [x] \(04/05/20222 of completion) Basic roles implemented
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/admin/create_role.php](https://yre2-prod.herokuapp.com/Project/admin/create_role.php)
-      -[]\(mm/dd/yyyy of completion) Site theme
+  - [x] \(04/06/2022 of completion) Site theme
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/home.php](https://yre2-prod.herokuapp.com/Project/home.php)
       -[https://yre2-prod.herokuapp.com/Project/styles.css](https://yre2-prod.herokuapp.com/Project/styles.css)
-       -[]\(mm/dd/yyyy of completion) User friendly messages
+  - [x] \(04/09/2022 of completion) User friendly messages
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/logout.php](https://yre2-prod.herokuapp.com/Project/logout.php)
-       -[]\(mm/dd/yyyy of completion) User will be able to see their profile
+  - [x] \(04/10/2022 of completion) User will be able to see their profile
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/profile.php](https://yre2-prod.herokuapp.com/Project/profile.php)
-      -[]\(mm/dd/yyyy of completion) User will be able to edit their profile
+  - [x] \(04/10/2022 of completion) User will be able to edit their profile
       -[Milestone 1](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone1/public_html/Project/milestone1.md)
       -[https://yre2-prod.herokuapp.com/Project/profile.php](https://yre2-prod.herokuapp.com/Project/profile.php)
+
 - Milestone 2
   - (duplicate template here for Milestone 1 features)
 - Milestone 3
