@@ -1,0 +1,23 @@
+.alert-success {
+    background-color: blue
+}
+
+.alert-warning {
+    background-color: yellow;
+}
+
+.alert-danger {
+    background-color: orange;
+}
+
+.alert-info {
+    background-color: gray;
+}
+nav li{display: inline; background-color: rebeccapurple;}
+nav li a{color: red}
+input{border-radius: 50%;}
+body{
+    background-color: gray;
+    color: rgb(153, 0, 153);
+
+}
