@@ -1,7 +1,12 @@
 <?php
+ Milestone1
 require(__DIR__ . "/../../partials/nav.php");
+
+require(__DIR__ . "/../../lib/functions,php");
+> dev
 ?>
 <form onsubmit="return validate(this)" method="POST">
+
 <div class="container-fluid">
     <h1>Register</h1>
     <form onsubmit="return validate(this)" method="POST">
@@ -23,16 +28,51 @@ require(__DIR__ . "/../../partials/nav.php");
         </div>
         <input type="submit" class="mt-3 btn btn-primary" value="Register" />
     </form>
-</div>
+  
+    <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" required />
+    </div>
+    <div>
+ Milestone1
+        <label for="username">Username</label>
+        <input type="text" name="username" required maxlength="30" />
+    </div>
+    <div>
+
+ dev
+        <label for="pw">Password</label>
+        <input type="password" id="pw" name="password" required minlength="8" />
+    </div>
+    <div>
+        <label for="confirm">Confirm</label>
+        <input type="password" name="confirm" required minlength="8" />
+    </div>
+    <input type="submit" value="Register" />
+</form>
+
 <script>
     function validate(form) {
+Milestone1
         //TODO 1: implement JavaScript validation
         //ensure it returns false for an error and true for success
+        if($email<4){
+            return false;
+        }
+
+        if(isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm"])){
+            $email = se($_POST, "email","",false);
+            $password = se($_POST,"password","",false);
+            $confirm= se($_POST, "confirm", "", false);
+        }
+        
+ dev
 
         return true;
     }
 </script>
 <?php
+ Milestone1
 //TODO 2: add PHP Code
 if (isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm"]) && isset($_POST["username"])) {
     $email = se($_POST, "email", "", false);
@@ -96,4 +136,11 @@ if (isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm
 ?>
 <?php
 require(__DIR__ . "/../../partials/flash.php");
+
+ if(isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm"])){
+     $email- $_POST["email"];
+     $password = $_POST["password"];
+     $confirm = $_POST["confirm"];
+ }
+ dev
 ?>
