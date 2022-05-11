@@ -1,6 +1,5 @@
 <?php
 //TODO 1: require db.php
- Milestone1
 require_once(__DIR__ . "/db.php");
 //This is going to be a helper for redirecting to our base project path since it's nested in another folder
 //This MUST match the folder name exactly
@@ -41,5 +40,5 @@ require(__DIR__ . "/safer_echo.php");
 //TODO 3: User helpers
 
 //TODO 4: Flash Message Helpers
- dev
+ 
 ?>
