@@ -49,6 +49,28 @@
 
 - Milestone 2
 
+
+
+  - [x] \(04/30/2022 of completion) User will be able Create Accounts table and setup
+      -[Milestone 2](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone2/public_html/Project/milestone2.md)
+      -[https://yre2-prod.herokuapp.com/Project/create_account.php](https://yre2-prod.herokuapp.com/Project/create_account.php)
+  - [x] \(04/30/2022 of completion) User will be able to see Dashboard
+      -[Milestone 2](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone2/public_html/Project/milestone2.md)
+      -[https://yre2-prod.herokuapp.com/Project/dashboard.php](https://yre2-prod.herokuapp.com/Project/dashboard.php)
+  - [x] \(04/30/2022 of completion) User will be able to Create a checking Account
+      -[Milestone 2](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone2/public_html/Project/milestone2.md)
+      -[https://yre2-prod.herokuapp.com/Project/create_account.php](https://yre2-prod.herokuapp.com/Project/create_account.php)
+  - [x] \(04/30/2022 of completion) User will be able to list their account
+      -[Milestone 2](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone2/public_html/Project/milestone2.md)
+      -[https://yre2-prod.herokuapp.com/Project/account_history.php](https://yre2-prod.herokuapp.com/Project/account_history.php)
+  - [x] \(04/30/20222 of completion) Account Transaction Details
+      -[Milestone 2](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone2/public_html/Project/milestone2.md)
+      -[https://yre2-prod.herokuapp.com/Project/admin/transaction.php](https://yre2-prod.herokuapp.com/Project/admin/transaction.php)
+  - [x] \(04/30/2022 of completion) Deposit/Withdraw
+      -[Milestone 2](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone2/public_html/Project/milestone2.md)
+      -[https://yre2-prod.herokuapp.com/Project/home.php](https://yre2-prod.herokuapp.com/Project/home.php)
+      -[https://yre2-prod.herokuapp.com/Project/transaction.php](https://yre2-prod.herokuapp.com/Project/transaction.php)
+
 - Milestone 3
   - [x] \(04/30/2022 of completion) User will be able to transfer between their accounts
       -[Milestone 3](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone3/public_html/Project/milestone3.md)
