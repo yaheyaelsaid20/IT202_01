@@ -1,9 +1,6 @@
 <?php
- Milestone1
+ 
 require(__DIR__ . "/../../partials/nav.php");
-
-require(__DIR__ . "/../../lib/functions,php");
-> dev
 ?>
 <form onsubmit="return validate(this)" method="POST">
 
@@ -29,27 +26,7 @@ require(__DIR__ . "/../../lib/functions,php");
         <input type="submit" class="mt-3 btn btn-primary" value="Register" />
     </form>
   
-    <div>
-        <label for="email">Email</label>
-        <input type="email" name="email" required />
-    </div>
-    <div>
- Milestone1
-        <label for="username">Username</label>
-        <input type="text" name="username" required maxlength="30" />
-    </div>
-    <div>
-
- dev
-        <label for="pw">Password</label>
-        <input type="password" id="pw" name="password" required minlength="8" />
-    </div>
-    <div>
-        <label for="confirm">Confirm</label>
-        <input type="password" name="confirm" required minlength="8" />
-    </div>
-    <input type="submit" value="Register" />
-</form>
+ 
 
 <script>
     function validate(form) {
@@ -72,7 +49,7 @@ Milestone1
     }
 </script>
 <?php
- Milestone1
+
 //TODO 2: add PHP Code
 if (isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm"]) && isset($_POST["username"])) {
     $email = se($_POST, "email", "", false);
@@ -138,9 +115,9 @@ if (isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm
 require(__DIR__ . "/../../partials/flash.php");
 
  if(isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm"])){
-     $email- $_POST["email"];
+     $email= $_POST["email"];
      $password = $_POST["password"];
      $confirm = $_POST["confirm"];
  }
- dev
+ 
 ?>

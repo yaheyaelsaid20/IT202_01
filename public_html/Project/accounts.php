@@ -2,6 +2,8 @@
 require_once(__DIR__ . "/../../partials/nav.php");
 
 //TODO create lookup query and fetch results, set them to $results
+
+
 ?>
 <h1>Accounts</h1>
 <?php if (count($results) == 0) : ?>
