@@ -86,8 +86,18 @@
       -[https://yre2-prod.herokuapp.com/Project/accounts.php](https://yre2-prod.herokuapp.com/Project/accounts.php)
   
 - Milestone 4
-  - (duplicate template here for Milestone 1 features)
-  - 
+  - [x] \(04/30/2022 of completion) User will be able to take out a loan
+      -[Milestone 4](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone4/public_html/Project/milestone4.md)
+      -[https://yre2-prod.herokuapp.com/Project/accounts.php](https://yre2-prod.herokuapp.com/Project/accounts.php)
+  - [x] \(04/30/2022 of completion) APY
+      -[Milestone 4](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone4/public_html/Project/milestone4.md)
+      -[https://yre2-prod.herokuapp.com/Project/account_history.php](https://yre2-prod.herokuapp.com/Project/account_history.php)
+  - [x] \(04/30/2022 of completion) admin role 
+      -[Milestone 4](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone4/public_html/Project/milestone4.md)
+      -[https://yre2-prod.herokuapp.com/Project/user_lookup.php](https://yre2-prod.herokuapp.com/Project/user_lookup.php)
+  - [x] \(04/30/2022 of completion) User will be able to transfer funds to another use
+      -[Milestone 4](https://github.com/yaheyaelsaid20/IT202_01/blob/Milestone4/public_html/Project/milestone4.md)
+      -[https://yre2-prod.herokuapp.com/Project/accounts.php](https://yre2-prod.herokuapp.com/Project/accounts.php)
 ### Intructions
 #### Don't delete this
 1. Pick one project type
